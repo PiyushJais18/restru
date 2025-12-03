@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Singh's Delight Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #1e0101;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #d9534f;
+            padding: 8px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 15px;
+        }
+
+        h2 {
+            color: #b22222;
+            margin-bottom: 10px;
+        }
+
+        .menu-item, .review {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 8px;
+            background-color: #f9f9f9;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #b22222;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #b22222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Singh's Delight  Restaurant</h1>
+        <p>Fresh • Tasty • Delicious</p>
+    </header>
+
+    <nav>
+        <a href="#menu">Menu</a>
+        <a href="#reservation">Reservations</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+
+    <section id="menu">
+        <h2>Menu</h2>
+
+        <div class="menu-item">
+            <strong>Margherita Pizza - Rs.499</strong>
+            <p>Fresh tomatoes, mozzarella, and basil.</p>
+        </div>
+
+        <div class="menu-item">
+            <strong>Cheeseburger - Rs.150</strong>
+            <p>Beef patty with cheddar and onions.</p>
+        </div>
+
+        <div class="menu-item">
+            <strong>Caesar Salad - Rs.199</strong>
+            <p>Crisp lettuce with Caesar dressing.</p>
+        </div>
+    </section>
+
+    <section id="reservation">
+        <h2>Reservation</h2>
+
+        <form>
+            <label>Name:</label>
+            <input type="text" required>
+
+            <label>Email:</label>
+            <input type="email" required>
+
+            <label>Number of Guests:</label>
+            <input type="number" min="1" required>
+
+            <label>Date & Time:</label>
+            <input type="datetime-local" required>
+
+            <button type="submit">Book Table</button>
+        </form>
+    </section>
+
+    <section id="reviews">
+        <h2>Reviews</h2>
+
+        <div class="review">
+            <strong>★★★★★ - Sara</strong>
+            <p>Great food and friendly team!</p>
+        </div>
+
+        <div class="review">
+            <strong>★★★★☆ - Rashmi</strong>
+            <p>Good service and cozy vibe.</p>
+        </div>
+
+        <div class="review">
+            <strong>★★★★★ - Aditya</strong>
+            <p>Highly recommended!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Singh's Delight Restaurant</p>
+    </footer>
+
+</body>
+</html>
